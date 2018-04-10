@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kochen 2.0 | Startseite</title>
+    <meta name="description" content="bla bla">
+    <!-- Meta viewport braucht man  für responsive Webdesign -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icons.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="index.html">
+          <img id="logo" src="img/logo.svg" alt="Logo Kochen 2.0">
+        </a>
+
+        <button id="burger">
+          <span class="icon-menu"></span>
+        </button>
+        <nav id="menu">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#">Rezepte</a>
+            </li>
+            <li>
+              <a href="#">Über Uns</a>
+            </li>
+
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="introtext">
+        <h1>Die besten Rezepte für Webworker</h1>
+        <p>Es gibt mehr Pizza & Ravioli</p>
+        <a href="#main" class="button">Entdecke die Leckereien</a>
+      </div>
+    </div>
+
+  <div class="wrapper">
+    <main id="main">
+      <h2>Die neuesten Rezepte</h2>
+
+    <div class="row">
+
+      <article class="card">
+        <img src="img/farfalle.jpg" alt="Farfalle mit Pesto">
+
+        <div class="teaser">
+          <h3>Farfalle mit Pesto</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="button" href="#">Zum Rezept</a>
+        </div>
+      </article>
+
+      <article class="card">
+          <img src="img/reispfanne-lissabon.jpg" alt="Reispfanne Lissabon">
+          <div class="teaser">
+            <h3>Reispfanne Lissabon</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="button" href="#">Zum Rezept</a>
+          </div>
+        </article>
+
+    </div>
+
+    <div class="row">
+      <article class="card">
+        <img src="img/kuerbissuppe.jpg" alt="Kürbissuppe">
+
+        <div class="teaser">
+          <h3>Kürbissuppe</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="button" href="#">Zum Rezept</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/burger.jpg" alt="Burger">
+
+        <div class="teaser">
+          <h3>Veggie-Burger</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="button" href="#">Zum Rezept</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="row">
+      <article class="card">
+        <img src="img/toast-mit-ei.jpg" alt="Toast mit Ei">
+
+        <div class="teaser">
+          <h3>Toast mit Ei</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="button" href="#">Zum Rezept</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/pancakes.jpg" alt="Pancakes">
+
+        <div class="teaser">
+          <h3>Pancakes</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <a class="button" href="#">Zum Rezept</a>
+        </div>
+      </article>
+
+    </div>
+    </main>
+
+    <aside class="sidebar">
+      <div class="suche">
+        <h2>Finde Dein Rezept</h2>
+        <form class="searchbar" action="https://www.google.de/search" target="_blank" method="get">
+          <input type="search" name="q" value="" placeholder="Mmmmmh...">
+          <button type="submit" name="button" class="icon-search"></button>
+        </form>
+      </div>
+
+      <div class="autor">
+
+      </div>
+
+      <div class="affiliate">
+
+      </div>
+    </aside>
+</div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    document.getElementById('burger').addEventListener('click', function(){
+      document.getElementById('menu').classList.toggle('show');
+    });
+    </script>
+
+  </body>
+</html>
